@@ -1,6 +1,10 @@
 function Display() {
     return (
-        <h1>Display</h1>
+        <div>
+        <h1>Welcome To Jeopardy!</h1>
+        <h2>Score</h2>
+        
+        </div>
     )
 }
 

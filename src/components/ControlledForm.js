@@ -1,6 +1,9 @@
 function ControlledForm() {
     return (
-        <h1>Controlled Form</h1>
+        <div>
+            <h1>Controlled Form</h1>
+            <button>Random Question</button>
+        </div>
     )
 }
 
