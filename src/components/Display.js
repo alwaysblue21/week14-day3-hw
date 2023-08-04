@@ -13,7 +13,10 @@ const [score, setScore] = useState(0);
             <button onClick={() => setScore(score - 100)}>-</button>
             <button onClick={() => setScore(0)}>Reset to zero</button>
         </section>
-
+        <h2>Let's Play!</h2>
+        <section>
+            <button>Get Question</button>
+        </section>
         </div>
     )
 }
