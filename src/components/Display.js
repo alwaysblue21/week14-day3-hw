@@ -1,8 +1,12 @@
 import { useState } from "react";
 
-function Display() {
+function Display(props) {
 
-const [score, setScore] = useState(0);
+    const question = props.question
+
+    const [score, setScore] = useState(0);
+
+    const [hideAnswer, setHideAnswer] = useState(true)
 
     return (
         <div>
