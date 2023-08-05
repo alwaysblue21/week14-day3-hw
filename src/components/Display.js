@@ -28,10 +28,9 @@ function Display(props) {
             </div>
 
             <div className="Question-Body">
-                <p><button className="Question-Button" onClick={clickQuestion}>{hideQuestion ? "Get Question" : "Hide Question"}</button></p>
-                <p>Question: {!hideQuestion ? question[0].question : null}</p>
-                <p>Category: {question[0].category.title}</p>
-                <p>Points: {question[0].value}</p>
+                <h1>Question: <br/> {!hideQuestion ? question[0].question : null} <br/> <button className="Question-Button" onClick={clickQuestion}>{hideQuestion ? "Get Question" : "Hide Question"}</button></h1>
+                <h1>Category: {question[0].category.title}</h1>
+                <h1>Points: {question[0].value}</h1>
             </div>
 
             <div className="Question-Body">
