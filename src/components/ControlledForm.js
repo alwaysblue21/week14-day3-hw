@@ -32,9 +32,9 @@ function ControlledForm(props) {
         <div className="controlledForm">
            <form onSubmit={handleSubmit}>
            <h1>Question</h1>
-                <input className="Question-Button" type="submit" name="randomQuestion" onChange={handleChange}>
-                    
-                </input>
+                <button className="Question-Button"  name="randomQuestion" onClick={handleChange}>
+                    Click For a New Question!
+                </button>
            </form>
         </div>
     )
